@@ -1,0 +1,28 @@
+{
+  "name": "expect-browser-user-authentication",
+  "version": "1.0.0",
+  "description": "Expec Browser User Authentication",
+  "main": "src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/williamcotton/expect-browser-user-authentication.git"
+  },
+  "keywords": [
+    "expect",
+    "browser",
+    "user",
+    "authentication"
+  ],
+  "author": "William Cotton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/williamcotton/expect-browser-user-authentication/issues"
+  },
+  "homepage": "https://github.com/williamcotton/expect-browser-user-authentication#readme"
+}
