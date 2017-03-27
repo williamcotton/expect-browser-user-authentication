@@ -36,12 +36,12 @@ module.exports = function (options) {
   var app = options.app
 
   // expect-browser-localstorage-session
-  app.use(require('./expect-browser-localstorage-session')({
+  app.use(require('./localstorage-session')({
     localStorage: localStorage
   }))
 
   // expect-browser-csrf
-  expectReactRenderer.use(require('./expect-browser-csrf')())
+  expectReactRenderer.use(require('./csrf')())
 
   expectReactRenderer.use(function (req, res, contentProps, rootProps, next) {
     var user = req.user

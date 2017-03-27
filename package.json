@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/williamcotton/expect-browser-user-authentication/issues"
   },
-  "homepage": "https://github.com/williamcotton/expect-browser-user-authentication#readme"
+  "homepage": "https://github.com/williamcotton/expect-browser-user-authentication#readme",
+  "dependencies": {
+    "validator": "^7.0.0"
+  }
 }
