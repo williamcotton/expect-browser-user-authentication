@@ -1,6 +1,6 @@
 {
   "name": "expect-browser-user-authentication",
-  "version": "1.0.0",
+  "version": "1.2.3",
   "description": "Expec Browser User Authentication",
   "main": "src/index.js",
   "directories": {
@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/williamcotton/expect-browser-user-authentication#readme",
   "dependencies": {
+    "on-headers": "^1.0.1",
     "validator": "^7.0.0"
   }
 }
